@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    background-color:#7c9885;
+
+}
+header{
+    background-color: #28666e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0,3s;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+.header .nav-links{
+    list-style: none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+} 
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size: 20px;
+    color: #033f63;
+    text-decoration: none;
+}
+.header .nav-links a:hover{
+    color:  #fedc97;
+}.header .btn button{
+    font-size: 20px;
+    color:#033f63 ;
+    padding: 9px 25px;
+    background: #7c9885;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.header .btn button:hover{
+    background-color: black;
+    color: azure;
+    transform: scale(1.1);
+}
+.formulario{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px #fedc97;
+
+    text-align: center;
+    width: 400px; 
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+h1{
+    color: black;
+    font-size: 40px;
+}
+label{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+input, textarea{
+    padding: 17px 25px;
+    margin-bottom: 20px;
+    background-color: #819ea1;
+    border: 2px solid #fedc97;
+    color: black;
+    outline: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #fedc97;
+}
+.boton{
+    font-size: 17px;
+    color: azure;
+    border: 0;
+    background-color: #28666e;
+    box-shadow: 0 0 20px #fedc97;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: black;
+    color: azure;
+    transform: scale(1.1);
+}
+@media(max-width:991px){
+    body{
+        padding: 30px;
+    }
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+    }
+}
