@@ -6,7 +6,6 @@
 }
 .body{
     background-color:#7c9885;
-
 }
 header{
     background-color: #28666e;
@@ -44,7 +43,8 @@ header{
 }
 .header .nav-links a:hover{
     color:  #fedc97;
-}.header .btn button{
+}
+.header .btn button{
     font-size: 20px;
     color:#033f63 ;
     padding: 9px 25px;
