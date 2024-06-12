@@ -22,7 +22,13 @@
         </nav>
         <a href="contacto.html" class="btn"><button>contacto</button></a>
     </header>
-    <form
+    <form action="cliente.php" method="post">
+        <input type="text" name="id_cliente" placeholder="id cliente">
+        <input type="text" name="nombre" placeholder="nombre">
+        <input type="text" name="producto" placeholder="producto">
+        <input type="text" name="cantidad" placeholder="cantidad">
+        <button type="submit" name="enviar">Enviar</button>
+    </form>
 </body>
 
 
