@@ -1,3 +1,7 @@
+// require de express y ejecucion
+const express = require("express");
+const app = express();
+
 // routes
 const mainRoutes = require("./routes/mainRoutes");
 const productsRoutes = require("./routes/productsRoutes");
